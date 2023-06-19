@@ -1,0 +1,371 @@
+.logo_1_txt{
+    position: static;
+    left: 38.5px;
+    right: 38.5px;
+    top: 19.5px;
+    bottom: 19.5px;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 57, 92, 0.8);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 20px;
+}
+
+.header_2_txt_1{
+    position: absolute;
+    width: 340px;
+    left: 30px;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 57, 92, 0.8);
+    cursor: pointer;
+}
+
+.header_2_txt_2{
+    position: absolute;
+    width: 160px;
+    left: 430px;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: rgba(0, 57, 92, 0.8);
+    cursor: pointer;
+}
+
+.header_2_txt_3{
+    position: absolute;
+    left: 650px;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 57, 92, 0.8);
+    cursor: pointer;
+}
+
+.header_3_txt_1{
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 48px;
+    color: rgba(0, 57, 92, 0.8);
+}
+
+.logo_1_txt{
+    position: static;
+    left: 38.5px;
+    right: 38.5px;
+    top: 19.5px;
+    bottom: 19.5px;
+    font-family: HelveticaNeueCyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 57, 92, 0.8);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 20px;
+}
+
+.main_remove_txt_1{
+    margin: 0px 20px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 57, 92, 0.8);
+    cursor: pointer;
+}
+
+.main_remove_txt_2{
+    margin: 0px 20px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 57, 92, 0.8);
+    cursor: pointer;
+}
+
+.main_remove_txt_3{
+    margin: 0px 20px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 57, 92, 0.8);
+    cursor: pointer;
+}
+
+.main_remove_txt_4{
+    margin: 0px 20px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 57, 92, 0.8);
+    cursor: pointer;
+}
+
+.main_remove_txt_5{
+    margin: 0px 20px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 57, 92, 0.8);
+    cursor: pointer;
+}
+
+.main_button_txt_1{
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 57, 92, 0.8);
+}
+
+.main_button_txt_2{
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 48px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.big_board_txt{
+    position: absolute;
+    top: 500px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.big_board_data{
+    position: absolute;
+    top: 575px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.little_board_txt{
+    position: absolute;
+    left: 0.5%;
+    right: 0%;
+    top: 46.32%;
+    bottom: 5.26%;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.little_board_data{
+    position: absolute;
+    left: 63px;
+    top: 240px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);    
+}
+
+.h1_txt{
+    position: absolute;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.block_txt_1{
+    position: absolute;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px black;
+    margin: 0px;
+    z-index: 1;
+    left: 15px;
+    bottom: 5px;
+}
+
+.block_txt_2{
+    position: absolute;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px black;
+    margin: 0px;
+    z-index: 1;
+    left: 15px;
+    bottom: 5px;
+}
+
+.block_txt_3{
+    position: absolute;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px black;
+    margin: 0px;
+    z-index: 1;
+    left: 15px;
+    bottom: 5px;
+}
+
+.block_txt_4{
+    position: absolute;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px black;
+    margin: 0px;
+    z-index: 1;
+    left: 15px;
+    bottom: 5px;
+}
+
+.footer_txt_1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer_txt_2{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer_txt_3{
+    position: absolute;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 32px;
+    color: #FFFFFF;
+    cursor: pointer;
+}

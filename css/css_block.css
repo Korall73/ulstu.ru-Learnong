@@ -1,0 +1,676 @@
+html{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    position: relative;
+    width: 1440px;
+    background: #FFFFFF;
+}
+
+.header{
+    position: absolute;
+    width: 1440px;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+}
+
+.main_back{
+    background: #EEEEEE;
+}
+
+.header_1{
+    position: absolute;
+    width: 1440px;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+}
+
+.header_2_1{
+    position: absolute;
+    width: 1220px;
+    height: 75px;
+    left: 180px;
+    top: 0px;
+}
+
+.ver_slab{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 340px;
+    height: 75px;
+    left: 880px;
+    cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 24px;
+    position: absolute;
+    width: 135px;
+    height: 75px;
+    cursor: pointer;
+}
+
+.main{
+    position: absolute;
+    width: 1440px;
+    height: 60px;
+    top: 110px;
+}
+
+.main_remove{
+    position: absolute;
+    width: 915px;
+    height: 60px;
+}
+
+.main_remove_1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.main_remove_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 24px;
+    position: static;
+}
+
+.main_remove_2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    left: 210px;
+}
+
+.main_remove_3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    left: 351px;
+}
+
+.main_remove_4{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    left: 511px;
+}
+
+.main_remove_5{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    left: 693px;
+}
+
+.main_button{
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    left: 913px;  
+}
+
+.main_button_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    background: rgba(39, 77, 134, 0.11);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main_button_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    left: 234px;
+    background: #0078D2;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.fleshboard{
+    position: absolute;
+    width: 1440px;
+    height: 525px;
+    top: 206px;
+}
+
+.left_button{
+    position: absolute;
+    width: 80px;
+    top: 210px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.right_button{
+    position: absolute;
+    width: 80px;
+    left: 1360px;
+    top: 210px;
+    z-index: 1;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.right_button_1{
+    position: absolute;
+    left: 100%;
+    right: -160%;
+    top: 0%;
+    bottom: 37.5%;
+    background: #0078D2;
+    transform: rotate(90deg);
+}
+
+.fleshboard_img{
+    position: absolute;
+    width: 1440px;
+    height: 525px;
+}
+
+.news{
+    position: absolute;
+    width: 1260px;
+    height: 733px;
+    left: 92px;
+    top: 766px;    
+}
+
+.news_board{
+    position: absolute;
+    width: 1260px;
+    height: 633px;
+    top: 100px;
+}
+
+.big_board{
+    position: absolute;
+    width: 565px;
+    height: 630px;
+    left: 345px;
+    cursor: pointer;
+}
+
+.big_board_img{
+    position: absolute;
+    width: 565px;
+    height: 486px;
+}
+
+.little_board_1{
+    position: absolute;
+    width: 200px;
+    height: 285px;
+    left: 90px;
+    cursor: pointer;
+}
+
+.little_board_2{
+    position: absolute;
+    width: 200px;
+    height: 285px;
+    left: 90px;
+    top: 345px;
+    cursor: pointer;
+}
+
+.little_board_3{
+    position: absolute;
+    width: 200px;
+    height: 285px;
+    right: 90px;
+    cursor: pointer;
+}
+
+.little_board_4{
+    position: absolute;
+    width: 200px;
+    height: 285px;
+    right: 90px;
+    top: 345px;
+    cursor: pointer;
+}
+
+.little_board_img{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 53.68%;
+    
+    background: url(img/little_board_img.png);
+}
+
+.news_txt{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    left: 550px;  
+}
+
+.main_footer{
+    position: absolute;
+    width: 1322px;
+    height: 353px;
+    left: 59px;
+    top: 1499px;    
+}
+
+.main_footer_1{
+    position: absolute;
+    width: 1322px;
+    height: 211px;
+    bottom: 0px;
+}
+
+.main_footer_block_1{
+    position: absolute;
+    width: 286px;
+    height: 210px;
+    cursor: pointer;
+}
+
+.block_img_1{
+    position: absolute;
+    width: 286px;
+    height: 210px;
+}
+
+.main_footer_block_2{
+    position: absolute;
+    width: 281px;
+    height: 211px;
+    left: 351px;
+    cursor: pointer;
+}
+
+.block_img_2{
+    position: absolute;
+    width: 280px;
+    height: 210px;
+}
+
+.main_footer_block_3{
+    position: absolute;
+    width: 282px;
+    height: 211px;
+    left: 693px;
+    cursor: pointer;
+}
+
+.block_img_3{
+    position: absolute;
+    width: 280px;
+    height: 210px;
+}
+
+.main_footer_block_4{
+    right: 0;
+    position: absolute;
+    width: 283px;
+    height: 210px;
+    cursor: pointer;
+}
+
+.block_img_4{
+    position: absolute;
+    width: 280px;
+    height: 210px;
+}
+
+.main_footer_txt{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 550px;
+}
+
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    top: 1975px;
+}
+
+.footer_back{
+    background: #00395C;
+}
+
+.footer_1{
+    position: absolute;
+    width: 1315px;
+    height: 420px;
+    left: 59px;   
+}
+
+.logo_2{
+    position: absolute;
+    width: 352px;
+    height: 248px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.footer_1_1{
+    position: absolute;
+    width: 963px;
+    height: 450px;  
+}
+
+.footer_1_1_1{
+    position: absolute;
+    width: 280px;
+    height: 450px;
+}
+
+.footer_block_1{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 30px;    
+}
+
+.footer_block_2{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 90px;    
+}
+
+.footer_block_3{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 150px;
+}
+
+.footer_block_3_1{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;    
+}
+
+.footer_block_4{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 210px;    
+}
+
+.footer_block_5{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 270px;
+}
+
+.footer_block_6{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 330px;    
+}
+
+.footer_block_7{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 390px;
+}
+
+.footer_1_1_2{
+    position: absolute;
+    width: 280px;
+    height: 450px;
+    left: 360px;
+}
+
+.footer_block_1_1{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 30px;
+}
+
+.footer_block_1_2{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 90px;
+}
+
+.footer_block_1_3{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 150px;
+}
+
+.footer_block_1_4{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 210px;    
+}
+
+.footer_block_1_5{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 270px;
+}
+
+.footer_block_1_6{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 330px;
+}
+
+.footer_block_1_7{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    top: 390px;
+}
+
+.footer_1_1_3{
+    position: absolute;
+    width: 201px;
+    height: 450px;
+    left: 690px;
+}
+
+.footer_block_2_1{
+    position: absolute;
+    width: 201px;
+    height: 60px;
+    top: 30px;    
+}
+
+.footer_block_2_2{
+    position: absolute;
+    width: 201px;
+    height: 60px;
+    top: 90px;    
+}
+
+.footer_block_2_3{
+    position: absolute;
+    width: 201px;
+    height: 60px;
+    top: 150px;    
+}
+
+.footer_block_2_4{
+    position: absolute;
+    width: 201px;
+    height: 60px;
+    top: 210px;
+}
+
+.footer_block_2_5{
+    position: absolute;
+    width: 201px;
+    height: 60px;
+    top: 270px;
+}
+
+.footer_block_2_6{
+    position: absolute;
+    width: 201px;
+    height: 60px;
+    top: 330px;    
+}
+
+.footer_block_2_7{
+    position: absolute;
+    width: 201px;
+    height: 60px;
+    top: 390px;
+}
+
+.footer_2{
+    position: absolute;
+    width: 795px;
+    height: 120px;
+    left: 59px;
+    top: 521px;    
+}
+
+.logo_set{
+    position: absolute;
+    width: 357px;
+    height: 58px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.logo_fb{
+    position: absolute;
+    width: 57px;
+    height: 58px;
+    cursor: pointer;
+}
+
+.logo_inst{
+    position: absolute;
+    width: 57.25px;
+    height: 58px;
+    left: 58px;
+    cursor: pointer;
+}
+
+.logo_tg{
+    position: absolute;
+    width: 57.25px;
+    height: 58px;
+    left: 116px;
+    cursor: pointer;
+}
+
+.logo_vk{
+    position: absolute;
+    width: 57.25px;
+    height: 58px;
+    left: 174px;
+    cursor: pointer;
+}
+
+.logo_ytb{
+    position: absolute;
+    width: 57.25px;
+    height: 58px;
+    left: 232px;
+    cursor: pointer;
+}
+
+.footer_2_1{
+    position: absolute;
+    width: 330px;
+    height: 120px;
+    left: 59px;
+}
+
+.footer_2_1_block_1{
+    position: absolute;
+    width: 280px;
+    height: 60px;
+}
+
+.footer_2_1_block_2{
+    position: absolute;
+    width: 330px;
+    height: 90px;
+    top: 40px;    
+}
+
+.footer_3{
+    position: absolute;
+    width: 1315px;
+    height: 95px;
+    left: 59px;
+    bottom: 70px;
+}
+
+.footer_3_block_1{
+    position: absolute;
+    width: 300px;
+    height: 95px;
+}
+
+.footer_3_block_2{
+    position: absolute;
+    width: 345px;
+    height: 95px;
+    left: 300px;   
+}
+
+.footer_3_block_3{
+    position: absolute;
+    width: 345px;
+    height: 95px;
+    left: 670px;  
+}
+
+.footer_3_block_4{
+    position: absolute;
+    width: 256px;
+    height: 95px;
+    left: 1015px;
+}
